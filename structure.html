@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="style.css"/>
+    </head>
+    <body>
+        <p>
+            This is the basic structure:
+        </p>
+        <p>
+            import React, { Component } from 'react';
+        </p>
+        <p>
+            import { Button, View, Text } from 'react-native';
+        </p>
+        <p>
+            export default class App extends Component {
+        </p>
+        <p>
+            render() {
+        </p>
+        <p>
+            return (
+        </p>
+        <p>
+            <View>
+        </p>
+        <p>
+            </View> 
+        </p>
+        <p>
+            );
+        </p>
+      <p>
+            }       
+      </p>
+      <p>
+            }      
+    </p>
+    <p>
+        The top two lines are telling the computer that now we are going to use the react native library.
+        Component can be understood as a base class which has other smaller components in it.
+        So,it is writen there app extends component.
+        Now there are many components other than app which can be used:View,Button,Text,etc.
+        After that the function render written here just returns something.
+        Like in this case it is returning View which is used to display the things we want on the screen.
+        Button is used to create a simple button and Text is used to write some text.
+        The button,view and text components can be a given a color(button can also be given title).
+        These are known as the tags' "props".
+    </p>
+    <p>
+        Button props:
+    </p>
+    <p>
+        color:
+    </p>
+    <p>
+        For eg:Button color="red"
+    </p>
+    <p>
+        title:
+    </p>
+    <p>
+        For eg:Button title="click me"
+    </p>
+    <p>
+        View props:
+    </p>
+    <p>
+        margin-
+    </p>
+    <p>
+        This property gives the content used inside view some space from the margin.
+        margin is followed by a hyphen and left,right,top or bottom.
+        View has many other props also which can be used.
+    </p>
+    <p>
+        This is also one reason of why we put button and text components inside view because it has so many props
+    </body>
+</html>
